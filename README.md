@@ -1,6 +1,6 @@
 # MSFS2020 Livery Sources
 
-To be used with the MSFS2020 Livery Manager.
+To be used with the [MSFS2020 Livery Manager](https://github.com/davwheat/MSFS2020-livery-manager).
 
 ## Current file format versions
 
