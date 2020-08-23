@@ -1,7 +1,8 @@
 {
-  "formatVersion": "1",
+  "formatVersion": 1,
   "formatType": "liverySource",
-  "version": "0.1.0",
+  "humanVersion": "0.1.0",
+  "versionCode": 1,
   "aircraftManifests": [
     "https://raw.githubusercontent.com/davwheat/MSFS2020-livery-sources/master/liveries/cessna-208b/manifest.json"
   ]
