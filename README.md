@@ -4,12 +4,12 @@ To be used with the MSFS2020 Livery Manager.
 
 ## Current file format versions
 
-| File format type | Version |
-| ---------------- | :-----: |
-| sourceList       |    1    |
-| liverySource     |    1    |
-| aircraftManifest |    1    |
-| liveryManifest   |    1    |
+| File format type   | Version |
+| ------------------ | :-----: |
+| `sourceList`       |    1    |
+| `liverySource`     |    1    |
+| `aircraftManifest` |    1    |
+| `liveryManifest`   |    1    |
 
 ## Documentation
 
@@ -17,21 +17,21 @@ To be used with the MSFS2020 Livery Manager.
 
 #### All manifests
 
-| Field         | Type     | Description                                                                                                                                                          |
-| ------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| formatVersion | `number` | **DO NOT EDIT!** This is for internal use in case new manifest formats are released. This will allow backwards-compatibility.                                        |
-| formatType    | `string` | States what type of manifest the file is. Used to prevent the attempted parsing of files as if they're another manifest type.                                        |
-| humanVersion  | `string` | The version code displayed to users. This can be whatever you want (even words) but it's recommended to stick with [semver](#semantic-versioning)                    |
-| versionCode   | `number` | Used by the manager itself to check if an update is available. If the number here is larger than the number held internally, we can assume the file has been updated |
+| Field           | Type     | Description                                                                                                                                                          |
+| --------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `formatVersion` | `number` | **DO NOT EDIT!** This is for internal use in case new manifest formats are released. This will allow backwards-compatibility.                                        |
+| `formatType`    | `string` | States what type of manifest the file is. Used to prevent the attempted parsing of files as if they're another manifest type.                                        |
+| `humanVersion`  | `string` | The version code displayed to users. This can be whatever you want (even words) but it's recommended to stick with [semver](#semantic-versioning)                    |
+| `versionCode`   | `number` | Used by the manager itself to check if an update is available. If the number here is larger than the number held internally, we can assume the file has been updated |
 
 #### sourceList
 
-| Field        | Type       | Description                                                                                                     |
-| ------------ | ---------- | --------------------------------------------------------------------------------------------------------------- |
-| name         | `string`   | Name of the source list.                                                                                        |
-| description  | `string`   | Description of the source list.                                                                                 |
-| contributors | `object[]` | The contributor(s) who compiled the source list. `name` is mandatory, other entries are optional. (See example) |
-| sources      | `string[]` | A string array of URLs to be parsed as `liverySource`s.                                                         |
+| Field          | Type       | Description                                                                                                     |
+| -------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
+| `name`         | `string`   | Name of the source list.                                                                                        |
+| `description`  | `string`   | Description of the source list.                                                                                 |
+| `contributors` | `object[]` | The contributor(s) who compiled the source list. `name` is mandatory, other entries are optional. (See example) |
+| `sources`      | `string[]` | A string array of URLs to be parsed as `liverySource`s.                                                         |
 
 <details>
 <summary>Full example</summary>
@@ -62,12 +62,12 @@ To be used with the MSFS2020 Livery Manager.
 
 #### liverySource
 
-| Field             | Type       | Description                                                                                                                 |
-| ----------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| name              | `string`   | Name of the livery compilation.                                                                                             |
-| description       | `string`   | Description of the livery compilation.                                                                                      |
-| contributors      | `object[]` | The contributor(s) who helped make the liveries in the list. `name` is mandatory, other entries are optional. (See example) |
-| aircraftManifests | `string[]` | An array of URLs to be parsed as `aircraftManifest`s.                                                                       |
+| Field               | Type       | Description                                                                                                                 |
+| ------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `name`              | `string`   | Name of the livery compilation.                                                                                             |
+| `description`       | `string`   | Description of the livery compilation.                                                                                      |
+| `contributors`      | `object[]` | The contributor(s) who helped make the liveries in the list. `name` is mandatory, other entries are optional. (See example) |
+| `aircraftManifests` | `string[]` | An array of URLs to be parsed as `aircraftManifest`s.                                                                       |
 
 <details>
 <summary>Full example</summary>
@@ -98,10 +98,10 @@ To be used with the MSFS2020 Livery Manager.
 
 #### aircraftManifest
 
-| Field    | Type                                              | Description                                                                                                     |
-| -------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| aircraft | `object: {name: string, package_version: string}` | The aircraft the liveries are to be associated with. Similar to a package's `manifest.json` dependencies entry. |
-| liveries | `object[]`                                        | A list of `liveryManifest`s. See example for full documentation.                                                |
+| Field      | Type                                              | Description                                                                                                     |
+| ---------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `aircraft` | `object: {name: string, package_version: string}` | The aircraft the liveries are to be associated with. Similar to a package's `manifest.json` dependencies entry. |
+| `liveries` | `object[]`                                        | A list of `liveryManifest`s. See example for full documentation.                                                |
 
 <details>
 <summary>Full example</summary>
