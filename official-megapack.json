@@ -3,7 +3,17 @@
   "formatType": "liverySource",
   "humanVersion": "0.1.0",
   "versionCode": 1,
+  "name": "The official megapack",
+  "description": "The livery megapack you all know and love.",
+  "contributors": [
+    {
+      "name": "David Wheatley",
+      "github": "davwheat",
+      "twitter": "@davwheat_",
+      "msfsforums": "davwheat"
+    }
+  ],
   "aircraftManifests": [
-    "https://raw.githubusercontent.com/davwheat/MSFS2020-livery-sources/master/liveries/cessna-208b/manifest.json"
+    "https://raw.githubusercontent.com/.../cessna-208b/manifest.json"
   ]
 }
