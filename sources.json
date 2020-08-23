@@ -3,6 +3,16 @@
   "formatType": "sourceList",
   "humanVersion": "0.1.0",
   "versionCode": 1,
+  "name": "Official livery manager source list",
+  "description": "A compilation of verified livery sources.",
+  "contributors": [
+    {
+      "name": "David Wheatley",
+      "github": "davwheat",
+      "twitter": "@davwheat_",
+      "msfsforums": "davwheat"
+    }
+  ],
   "sources": [
     "https://raw.githubusercontent.com/davwheat/MSFS2020-livery-sources/master/official-megapack.json"
   ]
