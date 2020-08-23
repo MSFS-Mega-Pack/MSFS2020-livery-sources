@@ -34,7 +34,7 @@ To be used with the MSFS2020 Livery Manager.
 <details>
 <summary>Full example</summary>
 
-```jsonc
+```json
 {
   "formatVersion": 1,
   "formatType": "sourceList",
@@ -70,7 +70,7 @@ To be used with the MSFS2020 Livery Manager.
 <details>
 <summary>Full example</summary>
 
-```jsonc
+```json
 {
   "formatVersion": 1,
   "formatType": "liverySource",
@@ -104,7 +104,7 @@ To be used with the MSFS2020 Livery Manager.
 <details>
 <summary>Full example</summary>
 
-```jsonc
+```json
 {
   "formatVersion": 1,
   "formatType": "aircraftManifest",
