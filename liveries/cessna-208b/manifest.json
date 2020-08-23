@@ -2,23 +2,25 @@
   "formatVersion": 1,
   "formatType": "aircraftManifest",
   "humanVersion": "0.1.0",
+  "versionCode": 1,
   "aircraft": {
     "name": "asobo-aircraft-208b-grand-caravan-ex",
     "package_version": "0.1.48"
   },
-  "contributors": [
-    {
-      "name": "David Wheatley",
-      "github": "davwheat",
-      "twitter": "@davwheat_",
-      "msfsforums": "davwheat"
-    }
-  ],
   "liveries": [
     {
       "name": "DHL",
+      "humanVersion": "0.1.0",
       "versionCode": 1,
-      "manifestURL": "https://raw.githubusercontent.com/davwheat/MSFS2020-livery-sources/master/liveries/cessna-208b/dhl/manifest.json"
+      "authors": [
+        {
+          "name": "David Wheatley",
+          "github": "davwheat",
+          "twitter": "@davwheat_",
+          "msfsforums": "davwheat"
+        }
+      ],
+      "manifestURL": "https://raw.githubusercontent.com/.../cessna-208b/dhl/manifest.json"
     }
   ]
 }
