@@ -13,9 +13,7 @@ To be used with the MSFS2020 Livery Manager.
 
 ## Documentation
 
-### Manifest documentation
-
-#### All manifests
+### All manifests
 
 | Field           | Type     | Description                                                                                                                                                          |
 | --------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,7 +22,7 @@ To be used with the MSFS2020 Livery Manager.
 | `humanVersion`  | `string` | The version code displayed to users. This can be whatever you want (even words) but it's recommended to stick with [semver](#semantic-versioning)                    |
 | `versionCode`   | `number` | Used by the manager itself to check if an update is available. If the number here is larger than the number held internally, we can assume the file has been updated |
 
-#### sourceList
+### `sourceList` manifest
 
 | Field          | Type       | Description                                                                                                     |
 | -------------- | ---------- | --------------------------------------------------------------------------------------------------------------- |
@@ -60,7 +58,7 @@ To be used with the MSFS2020 Livery Manager.
 
 </details>
 
-#### liverySource
+### `liverySource` manifest
 
 | Field               | Type       | Description                                                                                                                 |
 | ------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -96,7 +94,7 @@ To be used with the MSFS2020 Livery Manager.
 
 </details>
 
-#### aircraftManifest
+### `aircraftManifest` manifest
 
 | Field      | Type                                              | Description                                                                                                     |
 | ---------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -137,7 +135,7 @@ To be used with the MSFS2020 Livery Manager.
 
 </details>
 
-#### liveryManifest
+### `liveryManifest` manifest
 
 Coming soon...
 
