@@ -1,5 +1,6 @@
 {
   "formatVersion": "1",
+  "formatType": "sourceList",
   "version": "0.1.0",
   "sources": [
     "https://raw.githubusercontent.com/davwheat/MSFS2020-livery-sources/master/official-megapack.json"
