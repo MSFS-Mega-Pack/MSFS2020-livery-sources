@@ -1,0 +1,11 @@
+{
+  "LocalisationPackage": {
+    "Language": "pt-BR",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Com o primeiro voo em 1955, o Cessna 172 fez sua estreia como uma variante com trem de pouso triciclo do Cessna 170 e, desde então, tornou-se o avião mais produzido da história, registrando mais de 44.000 montagens até hoje.<br><br>Apesar de um hiato entre os anos 80 e 90, o 172 tem estado em produção desde 1956, com seu design de motor único, quatro assentos e asa fixa evoluindo para mais de 20 variantes com o passar dos anos – incluindo o luxuoso modelo \"Skyhawk\", lançado em 1960.<br><br>Enquanto o moderno 172 Skyhawk apresenta um motor Lycoming constante de 180 hp, além de iluminação de LED diurna\/noturna, o modelo mantém a tradição da linha de construção robusta, controles intuitivos, velocidade de pouso lenta e ótima visibilidade – qualidades que fazem do 172 uma das aeronaves de treinamento mais clementes e populares do mundo.<br><br>Equipado com o pacote de aviônica G1000 NXi da Garmin, esse Skyhawk oferece telas gráficas avançadas e processamento mais rápido, além de sistemas avançados de aviso de mau tempo, tráfego e terreno para uma experiência sofisticada de glass cockpit. Com tecnologia de ponta e desempenho comprovado pelo tempo, o Cessna 172 Skyhawk não se mantém apenas no topo dos livros de recordes de aviação, ele está sempre se superando.",
+      "AIRCRAFT.UI_MANUFACTURER": "Textron Aviation",
+      "AIRCRAFT.UI_MODEL": "Cessna 172 Skyhawk (G1000)",
+      "AIRCRAFT.UI_VARIATION": "Asobo G1000"
+    }
+  }
+}

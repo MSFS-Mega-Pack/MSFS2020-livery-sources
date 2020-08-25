@@ -1,0 +1,11 @@
+{
+  "LocalisationPackage": {
+    "Language": "it-IT",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Il Cessna 172, variante con carrello di atterraggio triciclo del Cessna 170 a carrello convenzionale, viene fatto volare per la prima volta nel 1955, diventando l'aeromobile più prodotto della storia, con un totale di 44.000 unità assemblate a oggi.<br><br>A eccezione di un'interruzione negli anni '80 e '90, il 172 rimane in produzione fin dal 1956, con un design monomotore quadriposto ad ala fissa che nel corso degli anni si evolve con oltre 20 varianti, incluso il modello deluxe \"Skyhawk\" che ha esordito nel 1960.<br><br>Il moderno 172 Skyhawk integra un robusto motore Lycoming da 180 CV e un sistema di illuminazione diurno\/notturno a LED, ma mantiene la tradizionale struttura robusta, i comandi intuitivi, la ridotta velocità di atterraggio e la grande visibilità che caratterizzano la linea, tutte qualità che rendono il 172 uno degli aeromobili più indulgenti del mondo e un popolare modello da addestramento.<br><br>Equipaggiato con un'avionica Garmin G1000 NXi, lo Skyhawk offre un display con grafica migliorata, nonché sistemi all'avanguardia di allerta su meteo, traffico e terreno per un sofisticato abitacolo a visori. Grazie alla tecnologia all'avanguardia e alle prestazioni collaudate, il Cessna 172 Skyhawk non si limita a posizionarsi tra i migliori record dell'aviazione: li supera tutti.",
+      "AIRCRAFT.UI_MANUFACTURER": "Textron Aviation",
+      "AIRCRAFT.UI_MODEL": "Cessna 172 Skyhawk (G1000)",
+      "AIRCRAFT.UI_VARIATION": "Asobo G1000"
+    }
+  }
+}
