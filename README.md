@@ -47,7 +47,8 @@ To be used with the [MSFS2020 Livery Manager](https://github.com/davwheat/MSFS20
       "name": "David Wheatley",
       "github": "davwheat",
       "twitter": "@davwheat_",
-      "msfsforums": "davwheat"
+      "msfsforums": "davwheat",
+      "discord": "MrJeeves#6969"
     }
   ],
   "sources": [
@@ -83,7 +84,8 @@ To be used with the [MSFS2020 Livery Manager](https://github.com/davwheat/MSFS20
       "name": "David Wheatley",
       "github": "davwheat",
       "twitter": "@davwheat_",
-      "msfsforums": "davwheat"
+      "msfsforums": "davwheat",
+      "discord": "MrJeeves#6969"
     }
   ],
   "aircraftManifests": [
@@ -96,10 +98,26 @@ To be used with the [MSFS2020 Livery Manager](https://github.com/davwheat/MSFS20
 
 ### `aircraftManifest` manifest
 
-| Field      | Type                                              | Description                                                                                                     |
-| ---------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| `aircraft` | `object: {name: string, package_version: string}` | The aircraft the liveries are to be associated with. Similar to a package's `manifest.json` dependencies entry. |
-| `liveries` | `object[]`                                        | A list of `liveryManifest`s. See example for full documentation.                                                |
+| Field              | Type                                              | Description                                                                                                     |
+| ------------------ | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `aircraft`         | `object: {name: String, package_version: String}` | The aircraft the liveries are to be associated with. Similar to a package's `manifest.json` dependencies entry. |
+| `simObjectsFolder` | `String`                                          | The name of the airplane's SimObjects folder.                                                                   |
+| `liveries`         | `object[]`                                        | A list of `liveryManifest`s. See example for full documentation.                                                |
+
+#### Critical information about `uniqueId`s
+
+You **MUST** provide a `uniqueId` entry in the `liveries` array. This is used to accurately track the livery in the manager. **This value can NEVER change between livery updates.**
+
+We recommend using a value similar in style to an Android app package ID. In the example below, we've used a structure aimed to prevent conflicts between liveries. This structure is strongly recommended.
+
+Our structure allows for future livery variations to be created in the future at a very low risk of ID collisions.
+
+```
+<livery source name>.<original author>.<aircraft>.<livery name>.<variant>
+
+Example:
+msfs-megapack.davwheat.cessna-c172sp-as1000.blue.normal
+```
 
 <details>
 <summary>Full example</summary>
@@ -111,23 +129,24 @@ To be used with the [MSFS2020 Livery Manager](https://github.com/davwheat/MSFS20
   "humanVersion": "0.1.0",
   "versionCode": 1,
   "aircraft": {
-    "name": "asobo-aircraft-208b-grand-caravan-ex",
-    "package_version": "0.1.48"
+    "name": "asobo-aircraft-c172sp-as1000",
+    "package_version": "0.1.57"
   },
+  "simObjectsFolder": "Asobo_C172sp_AS1000",
   "liveries": [
     {
-      "name": "DHL",
+      "uniqueId": "msfs-megapack.broomhead123.cessna-c172sp-as1000.blue.normal",
+      "name": "BLUE",
       "humanVersion": "0.1.0",
       "versionCode": 1,
       "authors": [
         {
-          "name": "David Wheatley",
-          "github": "davwheat",
-          "twitter": "@davwheat_",
-          "msfsforums": "davwheat"
+          "name": "broomhead123",
+          "discord": "broomhead123#3514",
+          "msfsforums": "broomhead123"
         }
       ],
-      "manifestURL": "https://raw.githubusercontent.com/.../cessna-208b/dhl/manifest.json"
+      "manifestURL": "https://raw.githubusercontent.com/.../cessna-c172sp-as1000/blue/liveryManifest.json"
     }
   ]
 }

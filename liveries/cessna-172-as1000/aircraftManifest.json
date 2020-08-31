@@ -7,8 +7,10 @@
     "name": "asobo-aircraft-c172sp-as1000",
     "package_version": "0.1.57"
   },
+  "simObjectsFolder": "Asobo_C172sp_AS1000",
   "liveries": [
     {
+      "uniqueId": "msfs-megapack.broomhead123.cessna-c172sp-as1000.blue.normal",
       "name": "BLUE",
       "humanVersion": "0.1.0",
       "versionCode": 1,
@@ -19,15 +21,7 @@
           "msfsforums": "broomhead123"
         }
       ],
-      "manifestURL": "https://raw.githubusercontent.com/.../cessna-208b/dhl/manifest.json"
+      "manifestURL": "https://raw.githubusercontent.com/.../cessna-c172sp-as1000/blue/liveryManifest.json"
     }
-  ],
-  "liverymanifestData": {
-    "liveryName": "c172sp-as1000-blue",
-    "uniqueName": "broomhead123-c172sp-as1000-blue-paint",
-    "minGameVersion": "1.7.12",
-    "packageVersion": "0.1.48",
-    "manufacturer": "Textron Aviation",
-    "creator": "broomhead123"
-  }
+  ]
 }

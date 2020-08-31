@@ -1,0 +1,14 @@
+{
+  "formatVersion": 1,
+  "formatType": "feedHistory",
+  "rootUrl": "https://raw.githubusercontent.com/MSFS-Mega-Pack/MSFS2020-livery-sources/master/home-feed/",
+  "current": "feed.json",
+  "fullHistory": [
+    {
+      "date": "Monday, 31-Aug-20 12:00:00 UTC",
+      "title": "Welcome to the alpha installer!",
+      "author": "davwheat",
+      "contentUrl": "updates/2020-08-31-welcome-alpha-installer.md"
+    }
+  ]
+}
