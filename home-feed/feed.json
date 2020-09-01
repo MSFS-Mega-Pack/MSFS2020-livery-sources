@@ -3,6 +3,7 @@
   "formatType": "feed",
   "rootUrl": "https://raw.githubusercontent.com/MSFS-Mega-Pack/MSFS2020-livery-sources/master/home-feed/",
   "history": "history.json",
+  "isMoreHistoryAvailable": false,
   "feed": [
     {
       "date": "Monday, 31-Aug-20 12:00:00 UTC",
