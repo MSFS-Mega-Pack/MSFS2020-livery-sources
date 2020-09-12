@@ -6,6 +6,12 @@
   "isMoreHistoryAvailable": false,
   "feed": [
     {
+      "date": "Monday, 12-Sep-20 12:00:00 UTC",
+      "title": "Beta's coming...",
+      "author": "davwheat",
+      "contentUrl": "updates/2020-09-12-beta-release.md"
+    },
+    {
       "date": "Monday, 31-Aug-20 12:00:00 UTC",
       "title": "Welcome to the alpha installer!",
       "author": "davwheat",
