@@ -1,0 +1,9 @@
+{
+  "name": "fs2020_livery_sources",
+  "version": "0.1.0",
+  "description": "Official FS2020 megapack source files.",
+  "main": "index.js",
+  "repository": "https://github.com/MSFS-Mega-Pack/MSFS2020-livery-sources",
+  "author": "David Wheatley <hi@davwheat.dev>",
+  "license": "Proprietary"
+}
