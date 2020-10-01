@@ -5,4 +5,3 @@ To be used with the [MSFS2020 Livery Manager](https://github.com/davwheat/MSFS20
 All fetching of available liveries is done directly via [our API](https://github.com/MSFS-Mega-Pack/MSFS2020-Livery-API).
 
 This repo is purely for the home updates feed.
- 
