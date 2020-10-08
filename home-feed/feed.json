@@ -3,16 +3,10 @@
   "formatType": "feed",
   "feed": [
     {
-      "date": "Saturday, 12-Sep-20 12:00:00 UTC",
-      "title": "Beta's coming...",
+      "date": "Friday, 09-Oct-20 12:00:00 UTC",
+      "title": "Thanks for alpha testing!",
       "author": "davwheat",
-      "article": "2020-09-12-beta-release"
+      "article": "2020-10-20-thank-alpha-test"
     },
-    {
-      "date": "Monday, 31-Aug-20 12:00:00 UTC",
-      "title": "Welcome to the alpha installer!",
-      "author": "davwheat",
-      "article": "2020-08-31-welcome-alpha-installer"
-    }
   ]
 }
