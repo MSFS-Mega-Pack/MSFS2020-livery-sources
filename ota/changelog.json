@@ -1,0 +1,12 @@
+[
+  {
+    "version": "0.1.1",
+    "name": "Initial release",
+    "description": "Thanks for choosing the livery installer. Our plan is to create a one-stop shop for simple installation and downloads.",
+    "changes": {
+      "adds": [""],
+      "removes": [""],
+      "modifies": [""]
+    }
+  }
+]
