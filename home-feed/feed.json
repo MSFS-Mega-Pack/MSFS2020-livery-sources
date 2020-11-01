@@ -3,6 +3,12 @@
   "formatType": "feed",
   "feed": [
     {
+      "date": "Sunday, 01-Nov-20 20:30:00 UTC",
+      "title": "Liveries are fixed!",
+      "author": "MrJeeves",
+      "article": "2020-11-01-liveries-fixed"
+    },
+    {
       "date": "Thursday, 29-Oct-20 19:50:00 UTC",
       "title": "Liveries and the latest patch",
       "author": "MrJeeves",
