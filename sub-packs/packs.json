@@ -1,0 +1,19 @@
+{
+    "formatVersion": 1,
+    "formatType": "packs",
+    "packs": [{
+            "date": "Sunday, 01-Nov-20 20:30:00 UTC",
+            "title": "A320 neo Realistic Pack",
+            "author": "Dr. Click",
+            "packName": "A320neoRealisticSubPack",
+            "version": 1.0
+        },
+        {
+            "date": "Sunday, 01-Nov-20 20:30:00 UTC",
+            "title": "Ultra HD Pack",
+            "author": "Dr. Click",
+            "packName": "UltraHDSubPack",
+            "version": 1.0
+        }
+    ]
+}
