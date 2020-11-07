@@ -1,5 +1,30 @@
 {
     "description": "The Ultra HD pack, contains liveries that are in Ultra HD resolution",
     "imgURL": "/img/Asobo_B747/thumbnail.JPG",
-    "liveries": []
+    "liveries": [
+        "Asobo_A320_NEO_ACBLUE",
+        "Asobo_A320_NEO_AEGEAN",
+        "Asobo_A320_NEO_ASIANA",
+        "Asobo_A320_NEO_AUSTRIANNEW",
+        "Asobo_A320_NEO_BAOLYMPICS2012",
+        "Asobo_A320_NEO_CEBU",
+        "Asobo_A320_NEO_DLHOC",
+        "Asobo_A320_NEO_ETIHAD",
+        "Asobo_A320_NEO_FINNAIR",
+        "Asobo_A320_NEO_GFA",
+        "Asobo_A320_NEO_jazeera",
+        "Asobo_A320_NEO_JETBLUE",
+        "Asobo_A320_NEO_KAL50",
+        "Asobo_A320_NEO_MALTA",
+        "Asobo_A320_NEO_SWISS",
+        "Asobo_B747_8i_Cargolux",
+        "Asobo_B747_8i_UPS",
+        "Asobo_b787_ACBLUE",
+        "Asobo_b787_British",
+        "Asobo_b787_GULF",
+        "Asobo_b787_KAL",
+        "Asobo_b787_KAL50",
+        "Asobo_b787_QAN787100",
+        "Asobo_b787_UABS"
+    ]
 }
