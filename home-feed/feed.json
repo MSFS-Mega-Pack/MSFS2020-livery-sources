@@ -3,6 +3,12 @@
   "formatType": "feed",
   "feed": [
     {
+      "date": "Friday, 13-Nov-20 20:00:00 UTC",
+      "title": "Manager version 0.3.0",
+      "author": "MrJeeves",
+      "article": "2020-11-13-version-0.3.0"
+    },
+    {
       "date": "Sunday, 01-Nov-20 20:30:00 UTC",
       "title": "Liveries are fixed!",
       "author": "MrJeeves",
