@@ -3,6 +3,12 @@
   "formatType": "feed",
   "feed": [
     {
+      "date": "Friday, 25-Dec-20 01:00:00 UTC",
+      "title": "Manager version 0.4.0 - Internationalisation",
+      "author": "MrJeeves",
+      "article": "2020-12-25-version-0.4.0"
+    },
+    {
       "date": "Friday, 13-Nov-20 20:00:00 UTC",
       "title": "Manager version 0.3.0",
       "author": "MrJeeves",
