@@ -3,6 +3,12 @@
   "formatType": "feed",
   "feed": [
     {
+      "date": "Thursday, 23-Sep-21 21:15:00 UTC",
+      "title": "Goodbye crew!",
+      "author": "MrJeeves",
+      "article": "2021-09-23-goodbye"
+    },
+    {
       "date": "Saturday, 13-Feb-21 01:00:00 UTC",
       "title": "Manager version 0.4.4",
       "author": "MrJeeves",
